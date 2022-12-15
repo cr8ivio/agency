@@ -1,0 +1,37 @@
+{
+  "name": "@cr8ivio/docs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider build-storybook --docs",
+    "preview-storybook": "serve storybook-static",
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "@cr8ivio-fonts/chiffone": "workspace:^1.0.0",
+    "@cr8ivio-fonts/visby-cf": "workspace:^0.0.0",
+    "@cr8ivio/core": "workspace:*",
+    "@cr8ivio/tailwind-system": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@cr8ivio/tsconfig": "workspace:0.0.0",
+    "@storybook/addon-actions": "^6.5.14",
+    "@storybook/addon-docs": "^6.5.14",
+    "@storybook/addon-essentials": "^6.5.14",
+    "@storybook/addon-links": "^6.5.14",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-vite": "^0.1.41",
+    "@storybook/react": "^6.5.14",
+    "@vitejs/plugin-react": "^1.3.2",
+    "autoprefixer": "^10.4.13",
+    "eslint-config-cr8ivio": "workspace:*",
+    "postcss": "^8.4.20",
+    "serve": "^13.0.4",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^2.9.15"
+  }
+}

@@ -1,0 +1,9 @@
+/* chiffone-latin-400-normal*/
+@font-face {
+  font-family: 'Chiffone';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url('assets/Chiffone.otf') format('opentype'),
+    url('assets/Chiffone.ttf') format('truetype');
+}

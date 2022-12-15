@@ -1,0 +1,8 @@
+/* visby-cy-latin-600-normal*/
+@font-face {
+  font-family: 'Visby CF';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src: url('./assets/VisbyCF-DemiBold.woff2') format('woff2'), url('./assets/VisbyCF-DemiBold.woff') format('woff');
+}
